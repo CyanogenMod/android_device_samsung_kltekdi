@@ -23,4 +23,4 @@ PRODUCT_NAME := full_kltekdi
 PRODUCT_DEVICE := kltekdi
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := kltekdi
+PRODUCT_MODEL := SCL23
