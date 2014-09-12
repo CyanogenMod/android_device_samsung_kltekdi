@@ -1,4 +1,4 @@
-$(call inherit-product, device/samsung/kltevzw/full_kltevzw.mk)
+$(call inherit-product, device/samsung/kltekdi/full_kltekdi.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
@@ -6,5 +6,5 @@ $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_DEVICE := kltevzw
-PRODUCT_NAME := cm_kltevzw
+PRODUCT_DEVICE := kltekdi
+PRODUCT_NAME := cm_kltekdi

@@ -15,14 +15,14 @@
 # inherit from common klte
 -include device/samsung/klte-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := kltevzw
+TARGET_OTA_ASSERT_DEVICE := kltekdi
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8974pro_sec_klte_vzw_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8974pro_sec_klte_kdi_defconfig
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := device/samsung/kltevzw/init/init_klte.c
+TARGET_LIBINIT_DEFINES_FILE := device/samsung/kltekdi/init/init_klte.c
 TARGET_UNIFIED_DEVICE := true
 
 # NFC
@@ -35,4 +35,4 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2831155200
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12187581440
 
 # inherit from the proprietary version
--include vendor/samsung/kltevzw/BoardConfigVendor.mk
+-include vendor/samsung/kltekdi/BoardConfigVendor.mk

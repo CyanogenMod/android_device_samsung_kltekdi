@@ -3,5 +3,5 @@
 set -e
 
 export VENDOR=samsung
-export DEVICE=kltevzw
+export DEVICE=kltekdi
 ./../../$VENDOR/klte-common/setup-makefiles.sh $@
