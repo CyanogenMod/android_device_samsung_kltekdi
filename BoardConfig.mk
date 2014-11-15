@@ -15,7 +15,7 @@
 # inherit from common klte
 -include device/samsung/klte-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := kltekdi
+TARGET_OTA_ASSERT_DEVICE := kltekdi,klte
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8974pro_sec_klte_kdi_defconfig
