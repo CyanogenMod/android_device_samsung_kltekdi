@@ -17,6 +17,9 @@ vendor/lib/liblocationservice.so
 # lib/hw/nfc_nci.MSM8974.so:lib/hw/nfc_nci.msm8974.so
 # vendor/firmware/libpn547_fw.so
 
+# FeliCa
+lib/libcordon.so
+
 # Qualcomm framework
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
