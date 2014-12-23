@@ -54,14 +54,11 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
 
     property_get("ro.bootloader", bootloader);
 
-    if (strstr(bootloader, "G900J")) {
-        /* kltespr */
         property_set("ro.build.fingerprint", "samsung/SCL23/SCL23:4.4.2/KOT49H/SCL23KDU1AND1:user/release-keys");
         property_set("ro.build.description", "kltekdi-user 4.4.2 KOT49H SCL23KDU1AND1 release-keys");
         property_set("ro.product.model", "SM-G900J");
         property_set("ro.product.device", "kltekdi");
         cdma_properties("1", "44054", "kltekdi");
-    }
     /* TODO: Add KDDI MVNOs */
 
     property_get("ro.product.device", device);
